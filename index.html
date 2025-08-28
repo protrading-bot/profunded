@@ -1,58 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pro Funded</title>
-  <style>
-    body { margin:0; font-family:Arial, sans-serif; background:#f8fafc; color:#111; }
-    header { background:#111827; color:white; padding:15px; text-align:center; }
-    header h1 { margin:0; font-size:28px; }
-    nav { margin-top:10px; }
-    nav a { color:#f9fafb; margin:0 12px; text-decoration:none; }
-    .hero { padding:50px 20px; text-align:center; background:#4f46e5; color:white; }
-    .hero h2 { font-size:32px; margin-bottom:10px; }
-    .hero p { max-width:600px; margin:0 auto 20px; }
-    .btn { display:inline-block; padding:10px 18px; background:white; color:#4f46e5; border-radius:8px; text-decoration:none; font-weight:bold; }
-    .section { padding:40px 20px; text-align:center; }
-    .card { background:white; border:1px solid #ddd; border-radius:12px; padding:20px; max-width:300px; margin:10px auto; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
-    footer { background:#111827; color:#aaa; text-align:center; padding:20px; margin-top:30px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profunded - Get Started</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 240px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card h3 {
+    margin: 10px 0;
+    color: #007bff;
+}
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+.select-account {
+    margin: 30px auto;
+    text-align: center;
+}
+#buyNowBtn {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+#buyNowBtn:hover {
+    background: #218838;
+}
+.wallet {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #222;
+    display: none;
+}
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #ddd;
+}
+.footer img {
+    width: 80px;
+    margin: 10px;
+    border-radius: 8px;
+}
+@media (max-width: 768px){
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Pro Funded</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Plans</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-
-  <div class="hero">
-    <h2>Grow Your Trading Career with Pro Funded</h2>
-    <p>Fast funding, instant payouts, and a trader-first approach. Join us and unlock your potential.</p>
-    <a href="get-started.html" class="btn">Get Started
-  </div>
-
-  <div class="section">
-    <h2>Why Choose Pro Funded?</h2>
-    <div class="card">
-      <h3>✅ Instant Funding</h3>
-      <p>No long processes. Get started quickly and trade with ease.</p>
+<div class="container">
+    <h1>Get Started with Profunded</h1>
+    <div class="cards">
+        <div class="card"><h3>2.5K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $32.5</p></div>
+        <div class="card"><h3>5K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $65</p></div>
+        <div class="card"><h3>10K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $130</p></div>
+        <div class="card"><h3>15K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $195</p></div>
+        <div class="card"><h3>30K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $390</p></div>
+        <div class="card"><h3>50K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $650</p></div>
+        <div class="card"><h3>150K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $1950</p></div>
+        <div class="card"><h3>200K Account</h3><p>Profit Target: 10%</p><p>Step: 1</p><p>Daily Loss: 3%</p><p>Overall Loss: 8%</p><p>Profit Share: 80%</p><p>Price: $2600</p></div>
     </div>
-    <div class="card">
-      <h3>💰 High Payouts</h3>
-      <p>We ensure maximum profit share for our traders.</p>
-    </div>
-    <div class="card">
-      <h3>📈 Reliable Support</h3>
-      <p>24/7 support to help you at every step of your trading journey.</p>
-    </div>
-  </div>
 
-  <footer>
-    © 2025 Pro Funded. All rights reserved.
-  </footer>
+    <div class="select-account">
+        <h3>Select Account</h3>
+        <select id="accountSelect">
+            <option value="">--Select Account--</option>
+            <option value="2.5K Account - $32.5">2.5K Account</option>
+            <option value="5K Account - $65">5K Account</option>
+            <option value="10K Account - $130">10K Account</option>
+            <option value="15K Account - $195">15K Account</option>
+            <option value="30K Account - $390">30K Account</option>
+            <option value="50K Account - $650">50K Account</option>
+            <option value="150K Account - $1950">150K Account</option>
+            <option value="200K Account - $2600">200K Account</option>
+        </select>
+        <div class="wallet" id="wallet">
+            Binance USDT TRC20 Wallet: 1006457920
+        </div>
+        <button id="buyNowBtn">Buy Now</button>
+    </div>
+</div>
+
+<div class="footer">
+    <h3>Trading Motivation</h3>
+    <p>"The goal of a successful trader is to make the best trades. Money is secondary." – Alexander Elder</p>
+    <p>"It’s not whether you’re right or wrong that’s important, but how much money you make when you’re right and how much you lose when you’re wrong." – George Soros</p>
+    <div>
+        <img src="https://i.ibb.co/7KfZVfQ/trader1.jpg" alt="Trader 1">
+        <img src="https://i.ibb.co/3chJcR6/trader2.jpg" alt="Trader 2">
+        <img src="https://i.ibb.co/0s5jY7y/trader3.jpg" alt="Trader 3">
+    </div>
+</div>
+
+<script>
+const accountSelect = document.getElementById('accountSelect');
+const buyBtn = document.getElementById('buyNowBtn');
+const walletDiv = document.getElementById('wallet');
+
+accountSelect.addEventListener('change', function() {
+    if(accountSelect.value !== "") {
+        buyBtn.style.display = "inline-block";
+        walletDiv.style.display = "block";
+    } else {
+        buyBtn.style.display = "none";
+        walletDiv.style.display = "none";
+    }
+});
+</script>
 </body>
 </html>
